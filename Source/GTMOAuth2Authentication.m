@@ -687,11 +687,12 @@ finishedRefreshWithFetcher:(GTMOAuth2Fetcher *)fetcher
     if (!hasAccessToken) {
       shouldRefresh = YES;
     } else {
-      // We'll consider the token expired if it expires 60 seconds from now
+      // 2015-11-06 Fueseschi: switched from 60 seconds to 1 hour
+      // We'll consider the token expired if it expires 60 * 60 seconds (-> 1 hour) from now
       // or earlier
       NSDate *expirationDate = self.expirationDate;
       NSTimeInterval timeToExpire = [expirationDate timeIntervalSinceNow];
-      if (expirationDate == nil || timeToExpire < 60.0) {
+      if (expirationDate == nil || timeToExpire < 60.0 * 60.0) {
         // access token has expired, or will in a few seconds
         shouldRefresh = YES;
       }

@@ -117,9 +117,10 @@ const char *kKeychainAccountName = "OAuth";
             keychainItemName:(NSString *)keychainItemName
               resourceBundle:(NSBundle *)bundle {
   if (bundle == nil) {
-    bundle = [NSBundle mainBundle];
+//    bundle = [NSBundle mainBundle]; //TODO fueseschi changed in order to work
+    bundle = [NSBundle bundleForClass:[self class]];
   }
-
+    
   NSString *nibName = [[self class] authNibName];
   NSString *nibPath = [bundle pathForResource:nibName
                                        ofType:@"nib"];

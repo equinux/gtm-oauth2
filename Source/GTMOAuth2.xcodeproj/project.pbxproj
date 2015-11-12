@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A6F0A4D1BE3D0EA00962EE3 /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F244918121F370000FEE1DA /* GTMHTTPFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F0A4E1BE3D0EA00962EE3 /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F724BAD12248F81001A4AD0 /* GTMHTTPFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F0A4F1BE3D0EA00962EE3 /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F724BA812248F75001A4AD0 /* GTMHTTPFetchHistory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F0A501BE3D0EA00962EE3 /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F244847121F2E5C00FEE1DA /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F0A511BE3D0EA00962EE3 /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F244849121F2E5C00FEE1DA /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F0A521BE3D0EA00962EE3 /* GTMOAuth2WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7249FA122485EE001A4AD0 /* GTMOAuth2WindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F0A541BE3D0EA00962EE3 /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D436A133972F5000B4396 /* GTMOAuth2Window.xib */; };
+		4A6F0A561BE3D0EA00962EE3 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244848121F2E5C00FEE1DA /* GTMOAuth2Authentication.m */; };
+		4A6F0A571BE3D0EA00962EE3 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24484A121F2E5C00FEE1DA /* GTMOAuth2SignIn.m */; };
+		4A6F0A581BE3D0EA00962EE3 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244919121F370000FEE1DA /* GTMHTTPFetcher.m */; };
+		4A6F0A591BE3D0EA00962EE3 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F724BA912248F75001A4AD0 /* GTMHTTPFetchHistory.m */; };
+		4A6F0A5A1BE3D0EA00962EE3 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F724BAE12248F81001A4AD0 /* GTMHTTPFetcherLogging.m */; };
+		4A6F0A5B1BE3D0EA00962EE3 /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7249FB122485EE001A4AD0 /* GTMOAuth2WindowController.m */; };
+		4A6F0A5D1BE3D0EA00962EE3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F724AB512248D6B001A4AD0 /* Security.framework */; };
+		4A6F0A5E1BE3D0EA00962EE3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F724AB712248D6B001A4AD0 /* SystemConfiguration.framework */; };
 		4F24484B121F2E5C00FEE1DA /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244848121F2E5C00FEE1DA /* GTMOAuth2Authentication.m */; };
 		4F24484C121F2E5C00FEE1DA /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24484A121F2E5C00FEE1DA /* GTMOAuth2SignIn.m */; };
 		4F24491A121F370000FEE1DA /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244919121F370000FEE1DA /* GTMHTTPFetcher.m */; };
-		4F724A9012248CF5001A4AD0 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244848121F2E5C00FEE1DA /* GTMOAuth2Authentication.m */; };
-		4F724A9212248CF5001A4AD0 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24484A121F2E5C00FEE1DA /* GTMOAuth2SignIn.m */; };
-		4F724A9412248CF5001A4AD0 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244919121F370000FEE1DA /* GTMHTTPFetcher.m */; };
-		4F724AB812248D6B001A4AD0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F724AB512248D6B001A4AD0 /* Security.framework */; };
-		4F724ABA12248D6B001A4AD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F724AB712248D6B001A4AD0 /* SystemConfiguration.framework */; };
-		4F724BAB12248F75001A4AD0 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F724BA912248F75001A4AD0 /* GTMHTTPFetchHistory.m */; };
-		4F724BB012248F81001A4AD0 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F724BAE12248F81001A4AD0 /* GTMHTTPFetcherLogging.m */; };
-		4F8D436B133972F5000B4396 /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D436A133972F5000B4396 /* GTMOAuth2Window.xib */; };
 		4F8D437E1339735D000B4396 /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D437C1339735D000B4396 /* GTMOAuth2ViewControllerTouch.m */; };
-		4F94D2D012288B8A00BC78AA /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F244918121F370000FEE1DA /* GTMHTTPFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F94D2D112288B8A00BC78AA /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F724BAD12248F81001A4AD0 /* GTMHTTPFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F94D2D212288B8A00BC78AA /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F724BA812248F75001A4AD0 /* GTMHTTPFetchHistory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F94D2D312288B8A00BC78AA /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F244847121F2E5C00FEE1DA /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F94D2D812288B8A00BC78AA /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F244849121F2E5C00FEE1DA /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F94D2D912288B8A00BC78AA /* GTMOAuth2WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7249FA122485EE001A4AD0 /* GTMOAuth2WindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F94D33E1228944800BC78AA /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7249FB122485EE001A4AD0 /* GTMOAuth2WindowController.m */; };
 		4FC754F113E77E25006A0C26 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244848121F2E5C00FEE1DA /* GTMOAuth2Authentication.m */; };
 		4FC754F213E77E25006A0C26 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24484A121F2E5C00FEE1DA /* GTMOAuth2SignIn.m */; };
 		4FC754F313E77E25006A0C26 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F244919121F370000FEE1DA /* GTMHTTPFetcher.m */; };
@@ -48,6 +48,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115F7B7C1BECFCD100644483 /* GTMOAuth2Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GTMOAuth2Framework-Info.plist"; path = "Mac/GTMOAuth2Framework-Info.plist"; sourceTree = "<group>"; };
+		115F7B8C1BECFEA700644483 /* CopyFrameworksDynamically.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = CopyFrameworksDynamically.pl; sourceTree = "<group>"; };
+		115F7B8D1BECFEA700644483 /* Debug10.5.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug10.5.xcconfig; sourceTree = "<group>"; };
+		115F7B8E1BECFEA700644483 /* Debug_APPSTORE10.6.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug_APPSTORE10.6.xcconfig; sourceTree = "<group>"; };
+		115F7B8F1BECFEA700644483 /* LibrariesAndFrameworks.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LibrariesAndFrameworks.xcconfig; sourceTree = "<group>"; };
+		115F7B901BECFEA700644483 /* LibrariesAndFrameworks_APPSTORE.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LibrariesAndFrameworks_APPSTORE.xcconfig; sourceTree = "<group>"; };
+		115F7B911BECFEA700644483 /* Release10.5.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release10.5.xcconfig; sourceTree = "<group>"; };
+		115F7B921BECFEA700644483 /* Release_APPSTORE10.6.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release_APPSTORE10.6.xcconfig; sourceTree = "<group>"; };
+		115F7B931BECFEA700644483 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		4A6F0A621BE3D0EA00962EE3 /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F244847121F2E5C00FEE1DA /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
 		4F244848121F2E5C00FEE1DA /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
 		4F244849121F2E5C00FEE1DA /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
@@ -73,12 +83,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F724A6F12248B19001A4AD0 /* Frameworks */ = {
+		4A6F0A5C1BE3D0EA00962EE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F724AB812248D6B001A4AD0 /* Security.framework in Frameworks */,
-				4F724ABA12248D6B001A4AD0 /* SystemConfiguration.framework in Frameworks */,
+				4A6F0A5D1BE3D0EA00962EE3 /* Security.framework in Frameworks */,
+				4A6F0A5E1BE3D0EA00962EE3 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +123,7 @@
 			children = (
 				D2AAC07E0554694100DB518D /* libOAuthTouch2.a */,
 				4FC754FA13E77E25006A0C26 /* libOAuthTouch2NG.a */,
+				4A6F0A621BE3D0EA00962EE3 /* GTMOAuth2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,8 +134,26 @@
 				4F7249C012248423001A4AD0 /* Sources */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				4F724AA112248D35001A4AD0 /* Libraries */,
+				115F7B7C1BECFCD100644483 /* GTMOAuth2Framework-Info.plist */,
+				115F7B8B1BECFEA700644483 /* XcodeConfiguration */,
 			);
 			name = OAuthTouchStaticLibrary;
+			sourceTree = "<group>";
+		};
+		115F7B8B1BECFEA700644483 /* XcodeConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				115F7B8C1BECFEA700644483 /* CopyFrameworksDynamically.pl */,
+				115F7B8D1BECFEA700644483 /* Debug10.5.xcconfig */,
+				115F7B8E1BECFEA700644483 /* Debug_APPSTORE10.6.xcconfig */,
+				115F7B8F1BECFEA700644483 /* LibrariesAndFrameworks.xcconfig */,
+				115F7B901BECFEA700644483 /* LibrariesAndFrameworks_APPSTORE.xcconfig */,
+				115F7B911BECFEA700644483 /* Release10.5.xcconfig */,
+				115F7B921BECFEA700644483 /* Release_APPSTORE10.6.xcconfig */,
+				115F7B931BECFEA700644483 /* Shared.xcconfig */,
+			);
+			name = XcodeConfiguration;
+			path = ../../XcodeConfiguration;
 			sourceTree = "<group>";
 		};
 		4F7249C012248423001A4AD0 /* Sources */ = {
@@ -188,16 +217,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F724A6C12248B19001A4AD0 /* Headers */ = {
+		4A6F0A4C1BE3D0EA00962EE3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F94D2D012288B8A00BC78AA /* GTMHTTPFetcher.h in Headers */,
-				4F94D2D112288B8A00BC78AA /* GTMHTTPFetcherLogging.h in Headers */,
-				4F94D2D212288B8A00BC78AA /* GTMHTTPFetchHistory.h in Headers */,
-				4F94D2D312288B8A00BC78AA /* GTMOAuth2Authentication.h in Headers */,
-				4F94D2D812288B8A00BC78AA /* GTMOAuth2SignIn.h in Headers */,
-				4F94D2D912288B8A00BC78AA /* GTMOAuth2WindowController.h in Headers */,
+				4A6F0A4D1BE3D0EA00962EE3 /* GTMHTTPFetcher.h in Headers */,
+				4A6F0A4E1BE3D0EA00962EE3 /* GTMHTTPFetcherLogging.h in Headers */,
+				4A6F0A4F1BE3D0EA00962EE3 /* GTMHTTPFetchHistory.h in Headers */,
+				4A6F0A501BE3D0EA00962EE3 /* GTMOAuth2Authentication.h in Headers */,
+				4A6F0A511BE3D0EA00962EE3 /* GTMOAuth2SignIn.h in Headers */,
+				4A6F0A521BE3D0EA00962EE3 /* GTMOAuth2WindowController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,21 +246,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F724A7012248B19001A4AD0 /* GTMOAuth2.framework */ = {
+		4A6F0A4B1BE3D0EA00962EE3 /* GTMOAuth2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F724A7412248B19001A4AD0 /* Build configuration list for PBXNativeTarget "GTMOAuth2.framework" */;
+			buildConfigurationList = 4A6F0A5F1BE3D0EA00962EE3 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */;
 			buildPhases = (
-				4F724A6C12248B19001A4AD0 /* Headers */,
-				4F724A6D12248B19001A4AD0 /* Resources */,
-				4F724A6E12248B19001A4AD0 /* Sources */,
-				4F724A6F12248B19001A4AD0 /* Frameworks */,
+				4A6F0A4C1BE3D0EA00962EE3 /* Headers */,
+				4A6F0A531BE3D0EA00962EE3 /* Resources */,
+				4A6F0A551BE3D0EA00962EE3 /* Sources */,
+				4A6F0A5C1BE3D0EA00962EE3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GTMOAuth2.framework;
+			name = GTMOAuth2;
 			productName = OAuth.framework;
+			productReference = 4A6F0A621BE3D0EA00962EE3 /* GTMOAuth2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4FC754EF13E77E25006A0C26 /* OAuthTouchNonGoogleStaticLib */ = {
@@ -250,9 +280,9 @@
 			productReference = 4FC754FA13E77E25006A0C26 /* libOAuthTouch2NG.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4FC754FB13E77E2B006A0C26 /* GTMOAuth2NonGoogle.framework */ = {
+		4FC754FB13E77E2B006A0C26 /* GTMOAuth2NonGoogle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FC7551113E77E2B006A0C26 /* Build configuration list for PBXNativeTarget "GTMOAuth2NonGoogle.framework" */;
+			buildConfigurationList = 4FC7551113E77E2B006A0C26 /* Build configuration list for PBXNativeTarget "GTMOAuth2NonGoogle" */;
 			buildPhases = (
 				4FC754FC13E77E2B006A0C26 /* Headers */,
 				4FC7550413E77E2B006A0C26 /* Resources */,
@@ -263,7 +293,7 @@
 			);
 			dependencies = (
 			);
-			name = GTMOAuth2NonGoogle.framework;
+			name = GTMOAuth2NonGoogle;
 			productName = OAuth.framework;
 			productType = "com.apple.product-type.framework";
 		};
@@ -307,18 +337,18 @@
 			targets = (
 				D2AAC07D0554694100DB518D /* OAuthTouchStaticLib */,
 				4FC754EF13E77E25006A0C26 /* OAuthTouchNonGoogleStaticLib */,
-				4F724A7012248B19001A4AD0 /* GTMOAuth2.framework */,
-				4FC754FB13E77E2B006A0C26 /* GTMOAuth2NonGoogle.framework */,
+				4FC754FB13E77E2B006A0C26 /* GTMOAuth2NonGoogle */,
+				4A6F0A4B1BE3D0EA00962EE3 /* GTMOAuth2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F724A6D12248B19001A4AD0 /* Resources */ = {
+		4A6F0A531BE3D0EA00962EE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8D436B133972F5000B4396 /* GTMOAuth2Window.xib in Resources */,
+				4A6F0A541BE3D0EA00962EE3 /* GTMOAuth2Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,16 +363,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F724A6E12248B19001A4AD0 /* Sources */ = {
+		4A6F0A551BE3D0EA00962EE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F724A9012248CF5001A4AD0 /* GTMOAuth2Authentication.m in Sources */,
-				4F724A9212248CF5001A4AD0 /* GTMOAuth2SignIn.m in Sources */,
-				4F724A9412248CF5001A4AD0 /* GTMHTTPFetcher.m in Sources */,
-				4F724BAB12248F75001A4AD0 /* GTMHTTPFetchHistory.m in Sources */,
-				4F724BB012248F81001A4AD0 /* GTMHTTPFetcherLogging.m in Sources */,
-				4F94D33E1228944800BC78AA /* GTMOAuth2WindowController.m in Sources */,
+				4A6F0A561BE3D0EA00962EE3 /* GTMOAuth2Authentication.m in Sources */,
+				4A6F0A571BE3D0EA00962EE3 /* GTMOAuth2SignIn.m in Sources */,
+				4A6F0A581BE3D0EA00962EE3 /* GTMHTTPFetcher.m in Sources */,
+				4A6F0A591BE3D0EA00962EE3 /* GTMHTTPFetchHistory.m in Sources */,
+				4A6F0A5A1BE3D0EA00962EE3 /* GTMHTTPFetcherLogging.m in Sources */,
+				4A6F0A5B1BE3D0EA00962EE3 /* GTMOAuth2WindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +414,249 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		115F7B811BECFE4900644483 /* Debug_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = macosx;
+			};
+			name = Debug_APPSTORE;
+		};
+		115F7B821BECFE4900644483 /* Debug_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = OAuthTouch2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug_APPSTORE;
+		};
+		115F7B831BECFE4900644483 /* Debug_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DGTM_OAUTH2_SKIP_GOOGLE_SUPPORT=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = OAuthTouch2NG;
+				SDKROOT = iphoneos;
+			};
+			name = Debug_APPSTORE;
+		};
+		115F7B841BECFE4900644483 /* Debug_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Mac/GTMOAuth2Framework-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_CFLAGS = (
+					"-DGTM_OAUTH2_SKIP_GOOGLE_SUPPORT=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTMOAuth2;
+				SDKROOT = macosx;
+			};
+			name = Debug_APPSTORE;
+		};
+		115F7B851BECFE4900644483 /* Debug_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "GTMOAuth2Framework-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug_APPSTORE;
+		};
+		115F7B861BECFE5D00644483 /* Release_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = macosx;
+			};
+			name = Release_APPSTORE;
+		};
+		115F7B871BECFE5D00644483 /* Release_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = OAuthTouch2;
+				SDKROOT = iphoneos;
+			};
+			name = Release_APPSTORE;
+		};
+		115F7B881BECFE5D00644483 /* Release_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = "-DGTM_OAUTH2_SKIP_GOOGLE_SUPPORT=1";
+				PRODUCT_NAME = OAuthTouch2NG;
+				SDKROOT = iphoneos;
+			};
+			name = Release_APPSTORE;
+		};
+		115F7B891BECFE5D00644483 /* Release_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Mac/GTMOAuth2Framework-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_CFLAGS = "-DGTM_OAUTH2_SKIP_GOOGLE_SUPPORT=1";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTMOAuth2;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = Release_APPSTORE;
+		};
+		115F7B8A1BECFE5D00644483 /* Release_APPSTORE */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "GTMOAuth2Framework-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				ZERO_LINK = NO;
+			};
+			name = Release_APPSTORE;
+		};
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -435,6 +708,8 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DDEBUG=1";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
@@ -463,12 +738,14 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		4F724A7212248B19001A4AD0 /* Debug */ = {
+		4A6F0A601BE3D0EA00962EE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,8 +762,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Mac/GTMOAuth2Framework-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INFOPLIST_FILE = "GTMOAuth2Framework-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -494,12 +770,11 @@
 					AppKit,
 				);
 				PREBINDING = NO;
-				PRODUCT_NAME = GTMOAuth2;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4F724A7312248B19001A4AD0 /* Release */ = {
+		4A6F0A611BE3D0EA00962EE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -515,8 +790,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Mac/GTMOAuth2Framework-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INFOPLIST_FILE = "GTMOAuth2Framework-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -524,8 +798,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
-				PRODUCT_NAME = GTMOAuth2;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -634,7 +907,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
+				115F7B821BECFE4900644483 /* Debug_APPSTORE */,
 				1DEB922008733DC00010E9CD /* Release */,
+				115F7B871BECFE5D00644483 /* Release_APPSTORE */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -643,16 +918,20 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
+				115F7B811BECFE4900644483 /* Debug_APPSTORE */,
 				1DEB922408733DC00010E9CD /* Release */,
+				115F7B861BECFE5D00644483 /* Release_APPSTORE */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F724A7412248B19001A4AD0 /* Build configuration list for PBXNativeTarget "GTMOAuth2.framework" */ = {
+		4A6F0A5F1BE3D0EA00962EE3 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F724A7212248B19001A4AD0 /* Debug */,
-				4F724A7312248B19001A4AD0 /* Release */,
+				4A6F0A601BE3D0EA00962EE3 /* Debug */,
+				115F7B851BECFE4900644483 /* Debug_APPSTORE */,
+				4A6F0A611BE3D0EA00962EE3 /* Release */,
+				115F7B8A1BECFE5D00644483 /* Release_APPSTORE */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -661,16 +940,20 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FC754F813E77E25006A0C26 /* Debug */,
+				115F7B831BECFE4900644483 /* Debug_APPSTORE */,
 				4FC754F913E77E25006A0C26 /* Release */,
+				115F7B881BECFE5D00644483 /* Release_APPSTORE */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FC7551113E77E2B006A0C26 /* Build configuration list for PBXNativeTarget "GTMOAuth2NonGoogle.framework" */ = {
+		4FC7551113E77E2B006A0C26 /* Build configuration list for PBXNativeTarget "GTMOAuth2NonGoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FC7551213E77E2B006A0C26 /* Debug */,
+				115F7B841BECFE4900644483 /* Debug_APPSTORE */,
 				4FC7551313E77E2B006A0C26 /* Release */,
+				115F7B891BECFE5D00644483 /* Release_APPSTORE */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
