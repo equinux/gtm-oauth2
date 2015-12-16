@@ -49,14 +49,6 @@
 
 /* Begin PBXFileReference section */
 		115F7B7C1BECFCD100644483 /* GTMOAuth2Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GTMOAuth2Framework-Info.plist"; path = "Mac/GTMOAuth2Framework-Info.plist"; sourceTree = "<group>"; };
-		115F7B8C1BECFEA700644483 /* CopyFrameworksDynamically.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = CopyFrameworksDynamically.pl; sourceTree = "<group>"; };
-		115F7B8D1BECFEA700644483 /* Debug10.5.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug10.5.xcconfig; sourceTree = "<group>"; };
-		115F7B8E1BECFEA700644483 /* Debug_APPSTORE10.6.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug_APPSTORE10.6.xcconfig; sourceTree = "<group>"; };
-		115F7B8F1BECFEA700644483 /* LibrariesAndFrameworks.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LibrariesAndFrameworks.xcconfig; sourceTree = "<group>"; };
-		115F7B901BECFEA700644483 /* LibrariesAndFrameworks_APPSTORE.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LibrariesAndFrameworks_APPSTORE.xcconfig; sourceTree = "<group>"; };
-		115F7B911BECFEA700644483 /* Release10.5.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release10.5.xcconfig; sourceTree = "<group>"; };
-		115F7B921BECFEA700644483 /* Release_APPSTORE10.6.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release_APPSTORE10.6.xcconfig; sourceTree = "<group>"; };
-		115F7B931BECFEA700644483 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 		4A6F0A621BE3D0EA00962EE3 /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F244847121F2E5C00FEE1DA /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
 		4F244848121F2E5C00FEE1DA /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
@@ -135,25 +127,8 @@
 				034768DFFF38A50411DB9C8B /* Products */,
 				4F724AA112248D35001A4AD0 /* Libraries */,
 				115F7B7C1BECFCD100644483 /* GTMOAuth2Framework-Info.plist */,
-				115F7B8B1BECFEA700644483 /* XcodeConfiguration */,
 			);
 			name = OAuthTouchStaticLibrary;
-			sourceTree = "<group>";
-		};
-		115F7B8B1BECFEA700644483 /* XcodeConfiguration */ = {
-			isa = PBXGroup;
-			children = (
-				115F7B8C1BECFEA700644483 /* CopyFrameworksDynamically.pl */,
-				115F7B8D1BECFEA700644483 /* Debug10.5.xcconfig */,
-				115F7B8E1BECFEA700644483 /* Debug_APPSTORE10.6.xcconfig */,
-				115F7B8F1BECFEA700644483 /* LibrariesAndFrameworks.xcconfig */,
-				115F7B901BECFEA700644483 /* LibrariesAndFrameworks_APPSTORE.xcconfig */,
-				115F7B911BECFEA700644483 /* Release10.5.xcconfig */,
-				115F7B921BECFEA700644483 /* Release_APPSTORE10.6.xcconfig */,
-				115F7B931BECFEA700644483 /* Shared.xcconfig */,
-			);
-			name = XcodeConfiguration;
-			path = ../../XcodeConfiguration;
 			sourceTree = "<group>";
 		};
 		4F7249C012248423001A4AD0 /* Sources */ = {
@@ -414,10 +389,9 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		115F7B811BECFE4900644483 /* Debug_APPSTORE */ = {
+		115F7B811BECFE4900644483 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -441,11 +415,11 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DDEBUG=1";
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
-			name = Debug_APPSTORE;
+			name = "Debug App Store";
 		};
-		115F7B821BECFE4900644483 /* Debug_APPSTORE */ = {
+		115F7B821BECFE4900644483 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,9 +432,9 @@
 				PRODUCT_NAME = OAuthTouch2;
 				SDKROOT = iphoneos;
 			};
-			name = Debug_APPSTORE;
+			name = "Debug App Store";
 		};
-		115F7B831BECFE4900644483 /* Debug_APPSTORE */ = {
+		115F7B831BECFE4900644483 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -475,9 +449,9 @@
 				PRODUCT_NAME = OAuthTouch2NG;
 				SDKROOT = iphoneos;
 			};
-			name = Debug_APPSTORE;
+			name = "Debug App Store";
 		};
-		115F7B841BECFE4900644483 /* Debug_APPSTORE */ = {
+		115F7B841BECFE4900644483 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -510,9 +484,9 @@
 				PRODUCT_NAME = GTMOAuth2;
 				SDKROOT = macosx;
 			};
-			name = Debug_APPSTORE;
+			name = "Debug App Store";
 		};
-		115F7B851BECFE4900644483 /* Debug_APPSTORE */ = {
+		115F7B851BECFE4900644483 /* Debug App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -539,12 +513,11 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = Debug_APPSTORE;
+			name = "Debug App Store";
 		};
-		115F7B861BECFE5D00644483 /* Release_APPSTORE */ = {
+		115F7B861BECFE5D00644483 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -566,11 +539,11 @@
 				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
-			name = Release_APPSTORE;
+			name = "Release App Store";
 		};
-		115F7B871BECFE5D00644483 /* Release_APPSTORE */ = {
+		115F7B871BECFE5D00644483 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,9 +554,9 @@
 				PRODUCT_NAME = OAuthTouch2;
 				SDKROOT = iphoneos;
 			};
-			name = Release_APPSTORE;
+			name = "Release App Store";
 		};
-		115F7B881BECFE5D00644483 /* Release_APPSTORE */ = {
+		115F7B881BECFE5D00644483 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -594,9 +567,9 @@
 				PRODUCT_NAME = OAuthTouch2NG;
 				SDKROOT = iphoneos;
 			};
-			name = Release_APPSTORE;
+			name = "Release App Store";
 		};
-		115F7B891BECFE5D00644483 /* Release_APPSTORE */ = {
+		115F7B891BECFE5D00644483 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -626,9 +599,9 @@
 				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
-			name = Release_APPSTORE;
+			name = "Release App Store";
 		};
-		115F7B8A1BECFE5D00644483 /* Release_APPSTORE */ = {
+		115F7B8A1BECFE5D00644483 /* Release App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -655,7 +628,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				ZERO_LINK = NO;
 			};
-			name = Release_APPSTORE;
+			name = "Release App Store";
 		};
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -688,7 +661,6 @@
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -712,14 +684,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DDEBUG=1";
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -741,7 +712,7 @@
 				INSTALL_PATH = "@rpath";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -907,9 +878,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
-				115F7B821BECFE4900644483 /* Debug_APPSTORE */,
+				115F7B821BECFE4900644483 /* Debug App Store */,
 				1DEB922008733DC00010E9CD /* Release */,
-				115F7B871BECFE5D00644483 /* Release_APPSTORE */,
+				115F7B871BECFE5D00644483 /* Release App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -918,9 +889,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
-				115F7B811BECFE4900644483 /* Debug_APPSTORE */,
+				115F7B811BECFE4900644483 /* Debug App Store */,
 				1DEB922408733DC00010E9CD /* Release */,
-				115F7B861BECFE5D00644483 /* Release_APPSTORE */,
+				115F7B861BECFE5D00644483 /* Release App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -929,9 +900,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A6F0A601BE3D0EA00962EE3 /* Debug */,
-				115F7B851BECFE4900644483 /* Debug_APPSTORE */,
+				115F7B851BECFE4900644483 /* Debug App Store */,
 				4A6F0A611BE3D0EA00962EE3 /* Release */,
-				115F7B8A1BECFE5D00644483 /* Release_APPSTORE */,
+				115F7B8A1BECFE5D00644483 /* Release App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -940,9 +911,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FC754F813E77E25006A0C26 /* Debug */,
-				115F7B831BECFE4900644483 /* Debug_APPSTORE */,
+				115F7B831BECFE4900644483 /* Debug App Store */,
 				4FC754F913E77E25006A0C26 /* Release */,
-				115F7B881BECFE5D00644483 /* Release_APPSTORE */,
+				115F7B881BECFE5D00644483 /* Release App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -951,9 +922,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FC7551213E77E2B006A0C26 /* Debug */,
-				115F7B841BECFE4900644483 /* Debug_APPSTORE */,
+				115F7B841BECFE4900644483 /* Debug App Store */,
 				4FC7551313E77E2B006A0C26 /* Release */,
-				115F7B891BECFE5D00644483 /* Release_APPSTORE */,
+				115F7B891BECFE5D00644483 /* Release App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
